@@ -1,5 +1,5 @@
-# sudo docker build -t nixx/icms .
-# sudo docker run --name icms -d -p 8082:80 -v /Users/dillon/Documents/nixx/CMS:/var/www nixx/icms
+# sudo docker build -t nixhatter/icms .
+# sudo docker run --name icms -d -p 8080:80 -v /Users/dillon/Documents/nixx/CMS:/var/www nixhatter/icms
 
 FROM centos:6
 MAINTAINER Dillon Aykac <dillon@nixx.co>
